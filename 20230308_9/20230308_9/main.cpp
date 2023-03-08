@@ -1,0 +1,40 @@
+/************************
+* 파일 이름: main.c
+* 설명     :두 개의 숫자의 합을 계산하는 프로그램입니다.
+* 작성자   : 진 준 원
+* 작성일자 : 2023.03.08
+************************/
+#include <stdio.h>  // 전처리 header file
+
+int main(void)  // 메인 함수
+{
+	int x;    //변수(variable) 선언(define)
+	int y;    //변하지 않는 수(상수)
+	int sum;  
+
+	//int x, y, sum;
+
+	x = 7;  // 연산
+	y = 3;
+	//덧셈//
+	sum = x + y;
+	printf("두 수의 합: %d \n", sum);  // 출력
+	
+	//뺄셈//
+	sum = x - y;
+	printf("두 수의 차 : %d \n", sum);
+
+	//곱셈//
+	sum = x * y;
+	printf("두 수의 곱: %d \n", sum);
+
+	//나눗셈//
+	sum = x / y;
+	printf("두 수의 나누기: %f \n", sum);
+
+	//나머지//
+	sum = x % y;
+	printf("x에 y를 나눈 나머지: %d \n", sum);
+
+	return 0;  // 함수 값 반환
+}
